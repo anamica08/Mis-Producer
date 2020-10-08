@@ -1,9 +1,9 @@
 {
-  "name": "service_one",
+  "name": "producer-service",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -15,5 +15,15 @@
     "express": "^4.17.1",
     "nodemon": "^2.0.4",
     "sequelize": "^6.3.5"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anamica08/Mis-Producer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anamica08/Mis-Producer/issues"
+  },
+  "homepage": "https://github.com/anamica08/Mis-Producer#readme",
+  "description": ""
 }
