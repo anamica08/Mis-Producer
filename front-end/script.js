@@ -25,16 +25,17 @@ document.getElementById("submit-button").onclick = async function readData(){
             },
             body: JSON.stringify({name,gender,dob,curr_address,email,phonenumber,position})
         });
+         //after response 
+    if(resp.status = 201){
+        document.getElementById("form-job").reset();
+    }
     }else{
         document.getElementById("error").innerText = "Please fill all the required Feilds."
     }
     
 
-    console.log(resp);
+  
 
-    //after response 
-    if(resp.status = 201){
-        
-    }
+   
 
 }
